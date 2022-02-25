@@ -3,7 +3,17 @@ Snack 1
 L’utente inserisce due numeri in successione, con due prompt.
 Il software stampa il maggiore.
 */
+const num1 = parseInt(prompt('numero 1:'));
+const num2 = parseInt(prompt('numero2:'));
 
+if(num1 > num2){
+    alert(num1);
+}else if(num < num2){
+    alert(num2)
+}else{
+  ('sono uguali')
+    
+} 
 
 
 
@@ -36,7 +46,7 @@ Il software deve chiedere per 10 volte all’utente di inserire un numero.
 Il programma stampa la somma di tutti i numeri inseriti.
 */
 
-
+/* 
 let arrNum = [];
 
 for (i = 0; i < 10; i++) {
@@ -50,7 +60,7 @@ for (i = 0; i < arrNum.length; i++){
 }  
 alert(somma);
 
-
+*/
 
 /* 
 Snack 3
