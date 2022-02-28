@@ -144,9 +144,8 @@ Il software deve chiedere per 5 volte all’utente di inserire un numero.
 Il programma stampa la somma di tutti i numeri inseriti.
 */
 
-// let somma = 0 
-// let num = parseInt(prompt('inserisci un numero'));
-// console.log(num) 
+   let somma = 0; 
+   let num = 0; 
 
 // for(let num = 0; num < 5; num++){
 //    let num = parseInt(prompt('inserisci un numero'));
@@ -156,6 +155,12 @@ Il programma stampa la somma di tutti i numeri inseriti.
 // }
 
 
+while(num <5 ){
+   let num2 = parseInt(prompt('inserisci un numero'));
+   somma += num2;
+   num++;
+}
+console.log(somma);
 
 /* 
 Snack 2.2
@@ -179,3 +184,11 @@ Generatore di “nomi cognomi” casuali: prendendo una lista di nomi e una list
 Gatsby vuole generare una falsa lista di 3 invitati.
  */
 
+// const arrayNomi = ['marco', 'lucia', 'giulia', 'simona', 'angela', 'ernesto'];
+// const arrayCognomi = ['miele', 'russo', 'rossi', 'zucca', 'farinetti', 'martino'];
+
+// for (i = 0; i < 3; i++){
+//    let Nome = Math.floor(Math.random() * arrayNomi.length);
+//    let cognomi = Math.floor(Math.random() * arrayCognomi.length);
+//    console.log(arrayNomi[Nome] +' '+ arrayCognomi[cognomi] )
+// }
