@@ -38,8 +38,6 @@ il software stampa prima la parola piu corta, poi la parola piu lunga.
 
 
 
-
-
 /*
 Snack 3
 Il software deve chiedere per 10 volte all’utente di inserire un numero.
@@ -62,11 +60,6 @@ Il programma stampa la somma di tutti i numeri inseriti.
 
 
 
-
-
-
-
-
 /*
 Snack 4
 In un array sono contenuti i nomi degli invitati alla festa del grande
@@ -86,6 +79,8 @@ no alla festa.
 // }
 // invitato ? console.log(`Benvenuto ${nome}!`) : console.log("Non sei stato invitato.");
 
+
+
 /* 
 Snack 5
 Crea un array vuoto.
@@ -93,14 +88,15 @@ Chiedi per 6 volte all’utente di inserire un numero,
 se è dispari inseriscilo nell’array.
 */
 
-// let numeri = [];
-// let numero;
+//  let numeri = [];
+//  let numero;
 
-// for (let i = 0; i < 6; i++){
-//   numero = parseInt(prompt('Inserisci un numero'));
-//   numeri.push(numero);
-//   if(numero % 2 == 0) numeri.push(numero);
-// }
+//  for (let i = 0; i < 6; i++){
+//     numero = parseInt(prompt('Inserisci un numero'));
+//     if(numero % 2 == 1){
+//     numeri.push(numero);
+//     } 
+//    }
 
 // console.log(numeri)
 
@@ -123,3 +119,37 @@ e calcola la somma di tutte le cifre che compongono il numero.
 //     res = parseInt(res) + parseInt(input[i]);
 // }
 // console.log(res);
+
+
+
+/*
+Snack 1.9 
+Calcola la somma e la media dei primi 10 numeri.
+ */
+
+
+
+
+/* 
+Snack 2.1
+Il software deve chiedere per 5 volte all’utente di inserire un numero.
+Il programma stampa la somma di tutti i numeri inseriti.
+*/
+
+
+
+/* 
+Snack 2.2
+Inserisci un numero, se è pari stampa il numero,
+se è dispari stampa il numero successivo
+*/
+
+
+
+
+/* 
+Snack 2.3
+Generatore di “nomi cognomi” casuali: prendendo una lista di nomi e una lista di cognomi, 
+Gatsby vuole generare una falsa lista di 3 invitati.
+ */
+
