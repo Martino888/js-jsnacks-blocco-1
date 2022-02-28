@@ -163,22 +163,15 @@ Inserisci un numero, se è pari stampa il numero,
 se è dispari stampa il numero successivo
 */
 
-let num = parseInt(prompt('inserisci un numero'));
-let dispari = 1;
+// let num = parseInt(prompt('inserisci un numero'));
+// let dispari = 1;
 
-if(num % 2 == 0){
-   console.log(num);
-}else if (num % 2 != 0 ){
-   num += dispari;
-   console.log(num);
-}
-
-
-
-
-
-
-
+// if(num % 2 == 0){
+//    console.log(num);
+// }else if (num % 2 != 0 ){
+//    num += dispari;
+//    console.log(num);
+// }
 
 /* 
 Snack 2.3
