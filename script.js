@@ -144,16 +144,16 @@ Il software deve chiedere per 5 volte all’utente di inserire un numero.
 Il programma stampa la somma di tutti i numeri inseriti.
 */
 
-let somma = 0 
-let num = parseInt(prompt('inserisci un numero'));
-console.log(num) 
+// let somma = 0 
+// let num = parseInt(prompt('inserisci un numero'));
+// console.log(num) 
 
-for(let num = 0; num < 5; num++){
-   let num = parseInt(prompt('inserisci un numero'));
-   console.log(num);
-   somma += num;
-   console.log(somma);
-}
+// for(let num = 0; num < 5; num++){
+//    let num = parseInt(prompt('inserisci un numero'));
+//    console.log(num);
+//    somma += num;
+//    console.log(somma);
+// }
 
 
 
@@ -162,6 +162,20 @@ Snack 2.2
 Inserisci un numero, se è pari stampa il numero,
 se è dispari stampa il numero successivo
 */
+
+let num = parseInt(prompt('inserisci un numero'));
+let dispari = 1;
+
+if(num % 2 == 0){
+   console.log(num);
+}else if (num % 2 != 0 ){
+   num += dispari;
+   console.log(num);
+}
+
+
+
+
 
 
 
