@@ -128,13 +128,29 @@ Calcola la somma e la media dei primi 10 numeri.
  */
 
 
+// let somma = 0;
+// for(let numero = 1; numero <= 10 ; numero++ ){
+//     somma += numero;
+//     console.log(numero)
+// }
+// let media = somma / 10; 
 
+// console.log(somma);
+// console.log(media);
 
 /* 
 Snack 2.1
 Il software deve chiedere per 5 volte all’utente di inserire un numero.
 Il programma stampa la somma di tutti i numeri inseriti.
 */
+let somma = 0 
+let num = parseInt(prompt('inserisci un numero'));
+console.log(num) 
+
+for(let num = 0; num > 5; num++){
+   let num = parseInt(prompt('inserisci un numero'));
+   console.log(num);
+}
 
 
 
